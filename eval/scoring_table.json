@@ -1,0 +1,262 @@
+{
+  "W1|gpt5": {
+    "n_docs": 8,
+    "dim_avgs": {
+      "factual_accuracy": 4.5,
+      "evidence_traceability": 4.625,
+      "numerical_consistency": 4.625,
+      "workflow_completeness": 4.875,
+      "source_discipline": 4.5,
+      "decision_usefulness": 4.625,
+      "reviewability": 4.625
+    },
+    "cm_lrs": 4.625
+  },
+  "W1|llama": {
+    "n_docs": 8,
+    "dim_avgs": {
+      "factual_accuracy": 4.0,
+      "evidence_traceability": 3.75,
+      "numerical_consistency": 4.75,
+      "workflow_completeness": 4.0,
+      "source_discipline": 4.5,
+      "decision_usefulness": 3.75,
+      "reviewability": 4.0
+    },
+    "cm_lrs": 4.107142857142857
+  },
+  "W1|opus": {
+    "n_docs": 8,
+    "dim_avgs": {
+      "factual_accuracy": 4.875,
+      "evidence_traceability": 4.875,
+      "numerical_consistency": 5.0,
+      "workflow_completeness": 4.5,
+      "source_discipline": 4.75,
+      "decision_usefulness": 4.625,
+      "reviewability": 5.0
+    },
+    "cm_lrs": 4.803571428571428
+  },
+  "W1|sonnet": {
+    "n_docs": 8,
+    "dim_avgs": {
+      "factual_accuracy": 5.0,
+      "evidence_traceability": 5.0,
+      "numerical_consistency": 5.0,
+      "workflow_completeness": 5.0,
+      "source_discipline": 4.75,
+      "decision_usefulness": 4.875,
+      "reviewability": 5.0
+    },
+    "cm_lrs": 4.946428571428571
+  },
+  "W2|gpt5": {
+    "n_docs": 5,
+    "dim_avgs": {
+      "factual_accuracy": 4.8,
+      "evidence_traceability": 4.8,
+      "numerical_consistency": 4.8,
+      "workflow_completeness": 4.4,
+      "source_discipline": 4.8,
+      "decision_usefulness": 4.6,
+      "reviewability": 4.8
+    },
+    "cm_lrs": 4.7142857142857135
+  },
+  "W2|llama": {
+    "n_docs": 5,
+    "dim_avgs": {
+      "factual_accuracy": 2.4,
+      "evidence_traceability": 2.0,
+      "numerical_consistency": 3.0,
+      "workflow_completeness": 3.2,
+      "source_discipline": 2.0,
+      "decision_usefulness": 2.4,
+      "reviewability": 2.6
+    },
+    "cm_lrs": 2.5142857142857142
+  },
+  "W2|opus": {
+    "n_docs": 5,
+    "dim_avgs": {
+      "factual_accuracy": 4.4,
+      "evidence_traceability": 4.2,
+      "numerical_consistency": 4.8,
+      "workflow_completeness": 5.0,
+      "source_discipline": 4.2,
+      "decision_usefulness": 4.6,
+      "reviewability": 4.8
+    },
+    "cm_lrs": 4.571428571428571
+  },
+  "W2|sonnet": {
+    "n_docs": 5,
+    "dim_avgs": {
+      "factual_accuracy": 4.6,
+      "evidence_traceability": 4.4,
+      "numerical_consistency": 4.8,
+      "workflow_completeness": 5.0,
+      "source_discipline": 4.4,
+      "decision_usefulness": 5.0,
+      "reviewability": 5.0
+    },
+    "cm_lrs": 4.742857142857142
+  },
+  "W3|gpt5": {
+    "n_docs": 3,
+    "dim_avgs": {
+      "factual_accuracy": 4.0,
+      "evidence_traceability": 4.666666666666667,
+      "numerical_consistency": 4.0,
+      "workflow_completeness": 5.0,
+      "source_discipline": 4.0,
+      "decision_usefulness": 5.0,
+      "reviewability": 4.666666666666667
+    },
+    "cm_lrs": 4.476190476190476
+  },
+  "W3|llama": {
+    "n_docs": 3,
+    "dim_avgs": {
+      "factual_accuracy": 2.6666666666666665,
+      "evidence_traceability": 1.6666666666666667,
+      "numerical_consistency": 2.0,
+      "workflow_completeness": 2.6666666666666665,
+      "source_discipline": 3.6666666666666665,
+      "decision_usefulness": 1.0,
+      "reviewability": 2.6666666666666665
+    },
+    "cm_lrs": 2.333333333333333
+  },
+  "W3|opus": {
+    "n_docs": 3,
+    "dim_avgs": {
+      "factual_accuracy": 4.0,
+      "evidence_traceability": 4.666666666666667,
+      "numerical_consistency": 3.6666666666666665,
+      "workflow_completeness": 3.0,
+      "source_discipline": 5.0,
+      "decision_usefulness": 2.6666666666666665,
+      "reviewability": 5.0
+    },
+    "cm_lrs": 3.9999999999999996
+  },
+  "W3|sonnet": {
+    "n_docs": 3,
+    "dim_avgs": {
+      "factual_accuracy": 4.0,
+      "evidence_traceability": 4.666666666666667,
+      "numerical_consistency": 4.0,
+      "workflow_completeness": 3.3333333333333335,
+      "source_discipline": 5.0,
+      "decision_usefulness": 2.6666666666666665,
+      "reviewability": 4.666666666666667
+    },
+    "cm_lrs": 4.0476190476190474
+  },
+  "W4|gpt5": {
+    "n_docs": 4,
+    "dim_avgs": {
+      "factual_accuracy": 3.5,
+      "evidence_traceability": 3.75,
+      "numerical_consistency": 4.25,
+      "workflow_completeness": 5.0,
+      "source_discipline": 3.5,
+      "decision_usefulness": 5.0,
+      "reviewability": 4.25
+    },
+    "cm_lrs": 4.178571428571428
+  },
+  "W4|llama": {
+    "n_docs": 4,
+    "dim_avgs": {
+      "factual_accuracy": 3.5,
+      "evidence_traceability": 3.5,
+      "numerical_consistency": 3.75,
+      "workflow_completeness": 3.5,
+      "source_discipline": 3.0,
+      "decision_usefulness": 3.25,
+      "reviewability": 3.75
+    },
+    "cm_lrs": 3.4642857142857144
+  },
+  "W4|opus": {
+    "n_docs": 4,
+    "dim_avgs": {
+      "factual_accuracy": 5.0,
+      "evidence_traceability": 4.75,
+      "numerical_consistency": 5.0,
+      "workflow_completeness": 4.0,
+      "source_discipline": 5.0,
+      "decision_usefulness": 4.0,
+      "reviewability": 5.0
+    },
+    "cm_lrs": 4.678571428571428
+  },
+  "W4|sonnet": {
+    "n_docs": 4,
+    "dim_avgs": {
+      "factual_accuracy": 5.0,
+      "evidence_traceability": 4.5,
+      "numerical_consistency": 5.0,
+      "workflow_completeness": 4.0,
+      "source_discipline": 5.0,
+      "decision_usefulness": 4.5,
+      "reviewability": 4.75
+    },
+    "cm_lrs": 4.678571428571428
+  },
+  "W5|gpt5": {
+    "n_docs": 6,
+    "dim_avgs": {
+      "factual_accuracy": 4.333333333333333,
+      "evidence_traceability": 4.166666666666667,
+      "numerical_consistency": 4.166666666666667,
+      "workflow_completeness": 4.333333333333333,
+      "source_discipline": 4.0,
+      "decision_usefulness": 4.333333333333333,
+      "reviewability": 4.0
+    },
+    "cm_lrs": 4.19047619047619
+  },
+  "W5|llama": {
+    "n_docs": 6,
+    "dim_avgs": {
+      "factual_accuracy": 4.166666666666667,
+      "evidence_traceability": 3.1666666666666665,
+      "numerical_consistency": 4.166666666666667,
+      "workflow_completeness": 3.8333333333333335,
+      "source_discipline": 3.8333333333333335,
+      "decision_usefulness": 3.3333333333333335,
+      "reviewability": 3.8333333333333335
+    },
+    "cm_lrs": 3.761904761904762
+  },
+  "W5|opus": {
+    "n_docs": 6,
+    "dim_avgs": {
+      "factual_accuracy": 4.5,
+      "evidence_traceability": 4.5,
+      "numerical_consistency": 4.333333333333333,
+      "workflow_completeness": 4.666666666666667,
+      "source_discipline": 4.0,
+      "decision_usefulness": 4.666666666666667,
+      "reviewability": 4.666666666666667
+    },
+    "cm_lrs": 4.476190476190476
+  },
+  "W5|sonnet": {
+    "n_docs": 6,
+    "dim_avgs": {
+      "factual_accuracy": 4.833333333333333,
+      "evidence_traceability": 4.666666666666667,
+      "numerical_consistency": 4.666666666666667,
+      "workflow_completeness": 5.0,
+      "source_discipline": 4.333333333333333,
+      "decision_usefulness": 5.0,
+      "reviewability": 4.833333333333333
+    },
+    "cm_lrs": 4.761904761904761
+  }
+}

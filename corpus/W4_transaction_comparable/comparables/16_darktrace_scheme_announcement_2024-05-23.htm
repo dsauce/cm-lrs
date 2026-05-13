@@ -1,0 +1,1233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <title>Scheme of arrangement</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+
+    <link rel="preload" as="style" href="https://ir.darktrace.com/build/assets/app-Cyg-f74T.css" /><link rel="preload" as="style" href="https://ir.darktrace.com/build/assets/app-CqSWsJMa.css" /><link rel="modulepreload" href="https://ir.darktrace.com/build/assets/app-rdCXTzDC.js" /><link rel="stylesheet" href="https://ir.darktrace.com/build/assets/app-Cyg-f74T.css" /><link rel="stylesheet" href="https://ir.darktrace.com/build/assets/app-CqSWsJMa.css" /><script type="module" src="https://ir.darktrace.com/build/assets/app-rdCXTzDC.js"></script>
+    <link rel="stylesheet" type="text/css" href="/build/static/css/fa/all.min.css"/>
+
+    <style>
+      #blackout
+      {
+        opacity:1.0;
+        transition-property:opacity;
+        transition-duration:0.25s;
+        transition-delay:0s;
+      }
+      #blackout.blackout
+      {
+        opacity:0;
+      }
+    </style>
+
+    <script type="text/javascript">
+      window.addEventListener(
+        "load",
+        ( event ) => {
+          document.getElementById("blackout").classList.remove("blackout")
+        },
+        { once: true }
+      )
+    </script>
+    <noscript>
+      <style>
+        #blackout.blackout
+        {
+          opacity:1;
+        }
+      </style>
+    </noscript>
+
+    <!-- OPTIONAL HEADSCRIPTS BLOCK -->
+    
+  </head>
+  <body id="blackout" class="blackout">
+
+    <!-- TESTING PANEL: -->
+    
+
+    <div class="cookies-opt-in-banner" id="cookies-opt-in-banner">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          <div class="mb-4">By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.</div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          <a class="btn btn-dt-white mb-2 mr-4" href="https://ir.darktrace.com/cookies/allow">Accept All Cookies</a>
+          <a class="btn btn-dt-orange mb-2" href="https://ir.darktrace.com/cookies/disallow">Reject All</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="debugging-responsive">
+  <div class="d-block.d-sm-none">XS</div>
+  <div class="d-none d-sm-block d-md-none">SM</div>
+  <div class="d-none d-md-block d-lg-none">MD</div>
+  <div class="d-none d-lg-block d-xl-none">LG</div>
+  <div class="d-none d-xl-block">XL</div>
+</div>
+
+    <main id="app">
+
+      <!-- NAV BAR -->
+      <section class="main-navigation">
+        <div class="container">
+  <div class="row">
+    <div class=".col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12">
+
+      <div class="nav navbar navbar-expand-xl navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="https://ir.darktrace.com/overview">
+          <img src="/images/darktrace-logo.png" title="Darktrace"/>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarResponsive" class="collapse navbar-collapse">
+
+          <ul class="navbar-nav ml-auto">
+
+            <!-- =========================================================== -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://ir.darktrace.com/overview">Overview</a>
+            </li>
+
+            <!-- =========================================================== -->
+
+            <li class="nav-item">
+              
+              <a class="nav-link" href="https://ir.darktrace.com/regulatory-news/2024">Regulatory News</a>
+            </li>
+
+            <!-- =========================================================== -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://ir.darktrace.com/financial-results">Results, Reports &amp; Presentations</a>
+            </li>
+
+            <!-- =========================================================== -->
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </section>
+
+      <!-- OPTIONAL HEADER BLOCK -->
+      
+      <!-- MAIN CONTENT SECTION -->
+      <div id="main-content">
+        
+  <div
+  class="modal fade dark-modal"
+  id="modal_disclaimer"
+  tabindex="-1"
+  aria-labelledby="modal_disclaimer_label"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-body">
+        <section class="disclaimer-page" id="disclaimerPage1">
+
+  <h2>IMPORTANT INFORMATION</h2>
+
+  <p>Access to the information and documents on this portion of the website is restricted for regulatory reasons. You are requested to review the following information and make the following confirmation each time you seek to access this restricted information. Your confirmation must be true and accurate.</p>
+  
+  <p>Please enter your country of residence:</p>
+
+  <div class="mb-3">
+    <select id="disclaimerCountries" name="country">
+      <option value="">--- Select Country ---</option>
+      <option value="AU">Australia</option>
+      <option value="CA">Canada</option>
+      <option value="AE">Dubai</option>
+      <option value="HK">Hong Kong</option>
+      <option value="JP">Japan</option>
+      <option value="SG">Singapore</option>
+      <option value="CH">Switzerland</option>
+      <option value="US">United States of America</option>
+      <option value="GB">United Kingdom</option>
+      <option value="--">All other countries</option>
+    </select>
+  </div>
+
+  <div class="mb-3">
+    <button
+      class="btn btn-success"
+      id="DisclaimerPage1NextButton"
+      type="button"
+      disabled="disabled"
+    >NEXT</button>
+  </div>
+
+</section>
+        <section class="disclaimer-page" id="disclaimerPage3">
+
+  <h2>IMPORTANT INFORMATION</h2>
+
+  <p><strong>ACCESS TO THE INFORMATION AND DOCUMENTS ON THIS PORTION OF THE WEBSITE IS RESTRICTED FOR REGULATORY REASONS. YOU ARE REQUESTED TO REVIEW THE FOLLOWING INFORMATION AND MAKE THE FOLLOWING CONFIRMATION EACH TIME YOU SEEK TO ACCESS THIS RESTRICTED INFORMATION. YOUR CONFIRMATION MUST BE TRUE AND ACCURATE.</strong></p>
+
+  <p><strong>ELECTRONIC VERSIONS OF THE MATERIALS YOU ARE SEEKING TO ACCESS ARE BEING MADE AVAILABLE ON THIS WEBSITE BY DARKTRACE PLC (THE "ISSUER") IN GOOD FAITH AND ARE FOR INFORMATION PURPOSES ONLY. THE ISSUER DOES NOT ACCEPT ANY RESPONSIBILITY FOR ANY CONTRAVENTION OF APPLICABLE SECURITIES LAWS AND REGULATIONS BY INDIVIDUALS FOR THE ACCURACY, COMPLETENESS OR FAIRNESS OR USE OF INFORMATION PROVIDED BY SUCH INDIVIDUALS.</strong></p>
+
+  <p><strong>THESE MATERIALS ARE NOT DIRECTED AT OR ACCESSIBLE BY PERSONS IN THE UNITED STATES OR PERSONS RESIDENT OR LOCATED IN AUSTRALIA, CANADA, DUBAI, HONG KONG, JAPAN, SINGAPORE, SWITZERLAND OR ANY OTHER JURISDICTION WHERE THE EXTENSION OF AVAILABILITY OF THE MATERIALS TO WHICH YOU ARE SEEKING ACCESS WOULD BREACH ANY APPLICABLE LAW OR REGULATION.</strong></p>
+
+  <p>The release, publication or distribution of the documents or other information contained herein may be restricted by law in certain jurisdictions. Persons into whose possession any of the documents or other information contained herein come should inform themselves about and observe any such restrictions. Any failure to comply with any such restrictions may constitute a violation of the securities laws or regulations of such jurisdiction.</p>
+
+  <p>The information and documents on this portion of the website (a) are intended only for, and may be accessed by, or distributed or disseminated, directly or indirectly, in whole or in part, to (i) "qualified institutional buyers" (as defined in Rule 144A under the U.S. Securities Act of 1933, as amended (the "<strong>US Securities Act</strong>") ("<strong>QIBs</strong>") or (ii) persons resident or physically present outside the United States (including its territories and possessions, any state of the United States and the District of Columbia), Australia, Canada, Dubai, Hong Kong, Japan, Singapore, Switzerland and resident and physically present in a jurisdiction in which such access, distribution or dissemination would not constitute a violation of the local securities laws or regulations of such jurisdiction, and (b) are not and do not constitute an offer to sell or the solicitation of an offer to buy or acquire, any ordinary shares or other securities of the Issuer in the United States, Australia, Canada, Dubai, Hong Kong, Japan, Singapore, Switzerland or any other jurisdiction in which such offer or solicitation would constitute a violation of the local securities laws or regulations of such jurisdiction or would be otherwise unlawful.</p>
+
+  <p>Securities may not be sold in the United States absent registration with the United States Securities and Exchange Commission or an exemption from registration under the US Securities Act. In particular, the securities have not been and will not be registered under the US Securities Act, and may not be offered or sold in the United States except pursuant to an exemption from, or in a transaction not subject to, the registration requirements of the US Securities Act. Any securities will not be registered under or offered in compliance with applicable securities laws of any state, province, territory, county or jurisdiction of the United States, Canada, Dubai, Hong Kong, Japan, Singapore or Switzerland. Accordingly, unless an exemption under the relevant securities law is applicable, any such securities may not be offered, sold, resold, delivered or distributed, directly or indirectly, in or into the United States, Canada, Dubai, Hong Kong, Japan, Singapore, Switzerland or any other jurisdiction if to do so would constitute a violation of the relevant laws of, or require registration thereof in, such jurisdiction. There will be no public offering of securities in the United States. Any securities sold in the United States will be sold only to QIBs in reliance on an exemption from, or transaction not subject to, the registration requirements of the US Securities Act.</p>
+
+  <p>The information and documents on this portion of the website are being addressed to and directed at persons in member states of the European Economic Area ("<strong>Member States</strong>") who are "qualified investors" within the meaning of Article 2(e) of the Prospectus Regulation (Regulation (EU) 2017/1129) ("<strong>Qualified Investors</strong>"). In addition, in the United Kingdom, this document is being distributed only to, and is directed only at, "qualified investors" within the meaning of Article 2(e) of the Prospectus Regulation (Regulation (EU) 2017/1129), as amended by The Prospectus (Amendment etc.) (EU Exit) Regulations 2019, and which is part of UK law by virtue of the European Union (Withdrawal) Act 2018 who are also persons who have professional experience in matters relating to investments falling within the definition of "investment professionals" in Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 as amended (the "<strong>Order</strong>") or who are high net worth bodies corporate, unincorporated associations and partnerships or the trustee of high value trusts falling within Article 49(2)(a) to (d) of the Order, and other persons to whom it may otherwise lawfully be communicated (all such persons together being referred to as "<strong>Relevant Persons</strong>"). Any investment or investment activity to which this document relates is available only to Relevant Persons in the United Kingdom and Qualified Investors in Member States, and will only be engaged with such persons. Persons who are not Relevant Persons (in the United Kingdom) or Qualified Investors (in Member States) should not act or rely on this document or any of its contents.</p>
+  
+  <p>Certain statements contained in documents available on this part of the website constitute forward-looking statements. By their nature, forward-looking statements involve a number of risks, uncertainties and assumptions that could cause actual results or events to differ materially from those expressed or implied by the forward-looking statements. These risks, uncertainties and assumptions could adversely affect the outcome and financial effects of the plans and events described herein. Forward-looking statements contained in documents available on this part of the website that reference past trends or activities should not be taken as a representation that such trends or activities will necessarily continue in the future. You should not place undue reliance on forward-looking statements, which speak only as of the date of the relevant document.</p>
+
+  <p>To confirm that:</p>
+
+  <ol>
+    <li>you have read, understand and agree to comply with all of the restrictions set forth above;</li>
+    <li>you are either (i) a QIB in the United States or (ii) are resident and physically present in a country outside the United States, Canada, Dubai, Hong Kong, Japan, Singapore or Switzerland or any other jurisdiction in which such distribution or access is unlawful;</li>
+    <li>you are not resident or physically present in any Member State, unless you are a Qualified Investor;</li>
+    <li>you are not resident or physically present in the United Kingdom, unless you are a Relevant Person;</li>
+    <li>it is lawful for you to review and receive copies of the documents on this website;</li>
+    <li>you agree that you will not transmit or otherwise send any information contained in this website to any person in the United States or to publications with a general circulation in the United States; and</li>
+    <li>are authorised and permitted to proceed to electronic versions of the information and documents on this portion of the website.</li>
+  </ol>
+
+  <p>Please select "I confirm" below:</p>
+
+  <div class="mb-4">
+    <button
+      class="btn btn-success mb-3"
+      id="acceptDisclaimer"
+      type="button"
+    >I CONFIRM</button>
+    <button
+      class="btn btn-danger mb-3"
+      id="rejectDisclaimer"
+      type="button"
+      data-dismiss="modal"
+    >I CANNOT CONFIRM</button>
+  </div>
+
+</section>
+        <section class="disclaimer-page" id="disclaimerPage4">
+  <h2>DISCLAIMER - IMPORTANT</h2>
+  <p>We regret that, due to applicable legal restrictions, we are unable to provide you with access to this section of our website.</p>
+  <p>We apologise for any inconvenience this may cause.</p>
+  <p><a href="https://ir.darktrace.com/overview">Click here</a> to return to the homepage.</p>
+</section>
+      </div>
+      <div class="modal-footer">
+        <button
+          class="btn btn-sm btn-secondary"
+          type="button"
+          data-dismiss="modal"
+        >Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <section class="backdrop backdrop-regulatory-news">
+    <div class="container">
+      <div class="row billboard">
+        <div class="col-12">
+          <div class="h1">Regulatory News</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="content content-bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Scheme of arrangement</h1>
+          <div class="regulatory-news-release">
+            
+<div style="text-align:left;"><div>RNS Number : 5638P</div> <div>Darktrace PLC</div> <div>23 May 2024</div> <div>&nbsp;</div></div>
+<div class="fr-view-element">
+<div class="pn">
+<p class="ny"><span style="font-weight: bold;"><span>NOT FOR RELEASE, PUBLICATION OR DISTRIBUTION, IN WHOLE OR IN PART, DIRECTLY OR INDIRECTLY, IN, INTO OR FROM ANY JURISDICTION WHERE TO DO SO WOULD CONSTITUTE A VIOLATION OF THE RELEVANT LAWS OR REGULATIONS OF THAT JURISDICTION</span></span></p>
+<p class="ny"><span style="font-weight: bold;"><span>FOR IMMEDIATE RELEASE</span></span></p>
+<p class="ny"><span style="font-weight: bold;"><span>THIS ANNOUNCEMENT CONTAINS INSIDE INFORMATION</span></span></p>
+<p class="ny"><span style="font-weight: bold;"><span>23 MAY 2024</span></span></p>
+<p class="sn" style="text-align:center;"><span style="font-weight: bold;"><span>RECOMMENDED CASH ACQUISITION</span></span></p>
+<p class="sn" style="text-align:center;"><span style="font-weight: bold;"><span>of</span></span></p>
+<p class="sn" style="text-align:center;"><span style="font-weight: bold;"><span>Darktrace plc</span></span></p>
+<p class="sn" style="text-align:center;"><span style="font-weight: bold;"><span>by</span></span></p>
+<p class="sn" style="text-align:center;"><span style="font-weight: bold;"><span>Luke Bidco Limited</span></span></p>
+<p class="sn" style="text-align:center;"><span style="font-weight: bold;"><span>(a newly-formed company indirectly wholly-owned by funds managed and/or advised by Thoma Bravo, L.P.)</span></span></p>
+<p class="sn" style="text-align:center;"><span style="font-weight: bold;"><span>to be implemented by means of a scheme of arrangement</span></span></p>
+<p class="sn" style="text-align:center;"><span style="font-weight: bold;"><span>under Part 26 of the Companies Act 2006</span></span></p>
+<p class="ny"><span>On 26 April 2024, the boards of directors of Luke Bidco Limited ("<span style="font-weight: bold;">Bidco</span>") and Darktrace plc ("<span style="font-weight: bold;">Darktrace</span>") announced that they had reached agreement on the terms and conditions of a recommended all cash acquisition by Bidco of the entire issued, and to be issued, ordinary share capital of Darktrace. It is intended that the Acquisition will be implemented by way of a Court-sanctioned scheme of arrangement under Part 26 of the Companies Act 2006.</span></p>
+<p class="ny"><span style="font-weight: bold;"><span>Publication of the Scheme Document</span></span></p>
+<p class="ny"><span>Darktrace is pleased to announce that the scheme document containing the full terms and conditions of the Acquisition (the&nbsp;"<span style="font-weight: bold;">Scheme Document</span>"), together with the related Forms of Proxy, is being published and sent today to Darktrace Shareholders and, for information only, to persons with information rights and participants in the Darktrace Share Schemes.</span></p>
+<p class="ny"><span>The Scheme Document will be made available on Darktrace's website at</span> <span><a href="https://ir.darktrace.com/">https://ir.darktrace.com/</a></span><span>. &nbsp;Copies of the Scheme Document have been submitted to the National Storage Mechanism and will shortly be available for inspection at:&nbsp;</span><span><a href="https://data.fca.org.uk/#/nsm/nationalstoragemechanism">https://data.fca.org.uk/#/nsm/nationalstoragemechanism</a>.</span></p>
+<p class="ny"><span>Terms defined in the Scheme Document have the same meanings in this announcement.</span></p>
+<p class="ny"><span style="font-weight: bold;"><span>Notices of the Court Meeting and General Meeting</span></span></p>
+<p class="ny"><span>As described in the Scheme Document, to become effective the Scheme will require, amongst other things: (i) the approval of a majority in number of Scheme Shareholders present and voting either in person or by proxy at the Court Meeting (or any adjournment thereof), representing not less than 75 per cent. in value of the Scheme Shares voted by such Scheme Shareholders; (ii) the passing of the Special Resolution by the requisite majority of Darktrace Shareholders at the General Meeting (or any adjournment thereof); and (iii) the subsequent sanction of the Scheme by the Court. The Scheme is also subject to the satisfaction or waiver of the other Conditions and further terms that are set out in the Scheme Document.</span></p>
+<p class="ny"><span>Notices of the Court Meeting and the General Meeting, both of which will be held at the offices of Latham &amp; Watkins (<location value="LU/gb.eng.london" idsrc="xmltag.org" >London</location>) LLP at 99 Bishopsgate, <location value="LU/gb.eng.london" idsrc="xmltag.org" >London</location> EC2M 3XF, <location value="LC/gb" idsrc="xmltag.org" >United Kingdom</location>, on 18 June 2024, are set out in the Scheme Document. The Court Meeting will commence at 2.30 p.m. and the General Meeting at 2.45 p.m. (or, if later, as soon as the Court Meeting has concluded or been adjourned).</span></p>
+<p class="ny"><span>It is important that, for the Court Meeting in particular, as many votes as possible are cast, so that the Court may be satisfied that there is a fair and reasonable representation of the opinion of Scheme Shareholders. Scheme Shareholders and Darktrace Shareholders are therefore strongly encouraged to submit proxy appointments and instructions for the Court Meeting and the General Meeting using any of the methods set out in the Scheme Document as soon as possible and, in any event, by no later than 2.30 p.m. on 14 June 2024 in the case of the Court Meeting and by no later than 2.45 p.m. on 14 June 2024 in the case of the General Meeting (or, in the case of any adjournment, not later than 48 hours (excluding non-working days) before the fixed time for the holding of the adjourned meeting).</span></p>
+<p class="ny"><span style="font-weight: bold;"><span>Recommendation</span></span></p>
+<p class="ny"><span>The Darktrace Board, which has been so advised by Jefferies and Qatalyst Partners as to the financial terms of the Acquisition, considers the terms of the Acquisition to be fair and reasonable. In providing its advice to the Darktrace Board, Jefferies and Qatalyst Partners have taken into account the commercial assessments of the Darktrace Board. Jefferies and Qatalyst Partners are providing independent advice to the Darktrace Board for the purposes of Rule 3 of the Takeover Code.</span></p>
+<p class="ny"><span>Accordingly, the Darktrace Board unanimously recommends that the Darktrace Shareholders vote or procure votes in favour of the Scheme at the Court Meeting and the Special Resolution to be proposed at the General Meeting, as the Darktrace Directors who hold interests in Darktrace Shares (in a personal capacity or through a nominee) have irrevocably undertaken to do in respect of their own beneficial holdings (or those Darktrace Shares over which they have control).</span></p>
+<p class="ny"><span>Darktrace Shareholders should read the Scheme Document in its entirety before making a decision with respect to the Scheme.</span></p>
+<p class="ny"><span style="font-weight: bold;"><span>Timetable</span></span></p>
+<p class="ny"><span>The Scheme Document contains an expected timetable of principal events relating to the Scheme, which is also set out in Appendix 1 to this announcement. The hearing of the Court to sanction the Scheme is currently expected to be held in the third or fourth quarter of 2024, subject to the prior satisfaction or waiver of the other Conditions set out in the Scheme Document.</span></p>
+<p class="ny"><span>If any of the key dates set out in the timetable change, Darktrace will give notice of this change by issuing an announcement through a Regulatory Information Service and by making such announcement available on Darktrace's website at <a href="https://ir.darktrace.com/">https://ir.darktrace.com/</a>.</span></p>
+<p class="ny"><span style="font-weight: bold;"><span>Shareholder helpline</span></span></p>
+<p class="ny"><span>If Darktrace Shareholders have any questions relating to this announcement, the Scheme Document, the Court Meeting, the General Meeting or the completion and return of the Forms of Proxy or the GREEN Form of Election, please call the Shareholder Helpline operated by Equiniti between 8.30 a.m. and 5.30 p.m. Monday to Friday (except public holidays in <location value="LS/gb.eng" idsrc="xmltag.org" >England</location> &amp; <location value="LS/gb.wal" idsrc="xmltag.org" >Wales</location>) on +44 (0) 333 207 6394 (from outside the <location value="LC/gb" idsrc="xmltag.org" >UK</location>, international rates apply). Please note that calls may be monitored or recorded and the Shareholder Helpline cannot provide advice on the merits of the Acquisition or the Scheme or give any financial, legal or tax advice. For deaf and speech impaired shareholders, calls can be made via Relay <location value="LC/gb" idsrc="xmltag.org" >UK</location>. Please see</span> <span><a href="http://www.relayuk.bt.com">www.relayuk.bt.com</a> for more information.</span></p>
+<p class="ny"><span style="font-weight: bold;"><span>Additional irrevocable undertaking</span></span></p>
+<p class="ny"><span>Bidco has received a further irrevocable undertaking dated 23 May 2024 from Nicholas Trim to vote (or, where applicable, procure voting) in favour of the Scheme at the Court Meeting and the Special Resolution to be proposed at the General Meeting (or in the event that the Acquisition is implemented by an Offer, to accept or procure acceptance of such Offer), in respect of 2,146,460 Darktrace Shares (representing approximately 0.30 per cent. of the existing issued ordinary share capital of Darktrace as at 22 May 2024, being the last Business Day before the date of this announcement). This undertaking will remain binding in the event that a higher competing offer for Darktrace is made. Further details of this irrevocable undertaking are set out in Appendix 2 to this announcement.</span></p>
+<p class="ny"><span>Bidco has, therefore, received irrevocable undertakings in respect of a total of 103,032,108 Darktrace Shares (representing approximately 14.71 per cent. of the existing issued ordinary share capital of Darktrace as at 22 May 2024, being the last Business Day before the date of this announcement). Further details of these irrevocable undertakings, including the circumstances in which they cease to be binding, are set out in paragraph 6 of part VII (<span style="font-style: italic;">Additional Information</span>) of the Scheme Document.</span></p>
+<p class="ny"><span style="font-weight: bold;"><span>Entry into Amended and Restated Financing Agreements</span></span></p>
+<p class="ny"><span>It is also announced that, among others, Bidco as bidco, Leia Finco US LLC as borrower and guarantor, Goldman Sachs Bank US as interim facilities agent and interim security agent, and the Acceding Finance Parties (as defined in the A&amp;R IFA) have entered into an amended and restated Interim Facilities Agreement (the "<span style="font-weight: bold;">A&amp;R IFA</span>"). In connection with the A&amp;R IFA, some or all of such parties have also entered into amended and restated versions of financing documents relating thereto, including an amended and restated commitment letter, an amended and restated commitment fee letter and an amended and restated CP satisfaction letter (together with the A&amp;R IFA, the "<span style="font-weight: bold;">A&amp;R Finance Documents</span>"). Other than the accession of the Acceding Finance Parties, the A&amp;R Finance Documents are on substantively the same terms as the financing documents entered into on or around the same date as the Announcement.</span></p>
+<p class="ny"><span>On 20 May 2024, Goldman Sachs Bank <location value="LC/us" idsrc="xmltag.org" >USA</location> and Thoma Bravo Credit Fund III, L.P. entered into a back-to-back commitment letter whereby Thoma Bravo Credit Fund III, L.P. committed to purchase part of the financing commitment under the A&amp;R Finance Documents on the terms and conditions set out therein (the "<span style="font-weight: bold;">B2B Commitment Letter</span>").</span></p>
+<p class="ny"><span>Goldman Sachs International, in its capacity as financial adviser to Bidco, is satisfied that sufficient resources are available to Bidco to satisfy in full the cash consideration payable to Darktrace Shareholders under the terms of the Acquisition.</span></p>
+<p class="ny"><span>A copy of the A&amp;R Finance Documents and the B2B Commitment Letter will be available on Darktrace's website at <a href="https://ir.darktrace.com">https://ir.darktrace.com</a>.</span></p>
+<p class="ny"><span style="font-weight: bold;"><span>Enquiries</span></span></p>
+<table class="table table-responsive"   cellspacing="0" cellpadding="0">
+<tbody>
+<tr class="sf">
+<td style="width: 335;" valign="top" class="sj">
+<p class="sp"><span style="font-weight: bold;"><span>Darktrace</span></span></p>
+<p class="sp"><span>via Headland</span></p>
+</td>
+<td style="width: 237;" valign="top" class="sg">
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">+44 (0)20 3805 4852</span></p>
+<p class="sr" style="text-align:right;"><span style="font-weight: bold;"><span>&nbsp;</span></span></p>
+</td>
+</tr>
+<tr class="sb">
+<td style="width: 335;" valign="top" class="sd">
+<p class="ss"><span style="font-weight: bold;"><span>Jefferies (Joint Financial Adviser and Corporate Broker to Darktrace)</span></span></p>
+<p class="ss"><span>Philip Yates</span></p>
+<p class="ss"><span>Dominic Lester</span></p>
+<p class="ss"><span>Nandan Shinkre</span></p>
+<p class="ss"><span>Paul Bundred</span></p>
+</td>
+<td style="width: 237;" valign="top" class="sc">
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">+44 (0)20 7029 8000</span></p>
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;"><span>&nbsp;</span></span></p>
+</td>
+</tr>
+<tr class="sb">
+<td style="width: 335;" valign="top" class="sd">
+<p class="ss"><span style="font-weight: bold;"><span>Qatalyst Partners</span></span> <span style="font-weight: bold;"><span>(Joint Financial Adviser to Darktrace)</span></span></p>
+<p class="ss"><span>Peter Spofforth</span></p>
+<p class="ss"><span>Jason DiLullo</span></p>
+</td>
+<td style="width: 237;" valign="top" class="sc">
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">+44 (0)20 3700 8820</span></p>
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;"><span>&nbsp;</span></span></p>
+</td>
+</tr>
+<tr class="sb">
+<td style="width: 335;" valign="top" class="sd">
+<p class="ss"><span style="font-weight: bold;"><span>Berenberg (Corporate Broker and Connected Adviser to Darktrace)</span></span></p>
+<p class="ss"><span>Ben Wright</span></p>
+<p class="ss"><span>Mark Whitmore</span></p>
+<p class="ss"><span>Miles Cox</span></p>
+<p class="ss"><span>Milo Bonser</span></p>
+</td>
+<td style="width: 237;" valign="top" class="sc">
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">+44 (0)20 3207 7800</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 335;" valign="top" class="sa">
+<p class="ss"><span style="font-weight: bold;"><span>Headland (PR Adviser to Darktrace)</span></span></p>
+<p class="ss"><span>Nigel Prideaux</span></p>
+<p class="ss"><span>Henry Wallers</span></p>
+</td>
+<td style="width: 237;" valign="top" class="ry">
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p class="st" style="text-align:right;"><span style="font-weight: bold;">+44 (0)20 3805 4852</span></p>
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">+44 (0)20 3805 4839</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 335;" valign="top" class="sa">
+<p class="ss"><span style="font-weight: bold;"><span>Thoma Bravo</span></span></p>
+<p class="ss"><span>Megan Frank, Head of Communications and Marketing</span></p>
+</td>
+<td style="width: 237;" valign="top" class="ry">
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">via FGS Global</span></p>
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 335;" valign="top" class="sa">
+<p class="ss"><span style="font-weight: bold;"><span>Goldman Sachs (Financial Adviser to Thoma Bravo and Bidco)</span></span></p>
+</td>
+<td style="width: 237;" valign="top" class="ry">
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">+44 (0)20 7774 1000</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 335;" valign="top" class="sa">
+<p class="ss"><span>Mark Sorrell</span></p>
+<p class="ss"><span>Nicholas van den Arend</span></p>
+<p class="ss"><span>Chris Emmerson</span></p>
+<p class="ss"><span>Cara Pazdon</span></p>
+</td>
+<td style="width: 237;" valign="top" class="ry">
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 335;" valign="top" class="sa">
+<p class="ss"><span style="font-weight: bold;"><span>FGS Global (PR Adviser to Thoma Bravo and Bidco)</span></span></p>
+<p class="ss"><span>Faeth Birch</span></p>
+<p class="ss"><span>Sophie Scott</span></p>
+<p class="ss"><span>Alastair Elwen</span></p>
+<p class="ss"><span>Amanda Healy</span></p>
+</td>
+<td style="width: 237;" valign="top" class="ry">
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">+44 (0)207 251 3801</span></p>
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">&nbsp;</span></p>
+<p class="sq" style="text-align:right;"><span style="font-weight: bold;">&nbsp;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="ny"><span>&nbsp;</span></p>
+<p class="ny"><span>Latham &amp; Watkins (<location value="LU/gb.eng.london" idsrc="xmltag.org" >London</location>) LLP is acting as legal adviser to Darktrace. &nbsp;</span></p>
+<p class="ny"><span>Kirkland&nbsp;&amp; Ellis International LLP is acting as legal adviser to Bidco and Thoma Bravo.</span></p>
+<p class="ny"><span style="font-weight: bold;" class="rw"><span>Important notices relating to financial advisers</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Goldman Sachs International, which is authorised by the PRA and regulated by the FCA and the PRA in the <location value="LC/gb" idsrc="xmltag.org" >United Kingdom</location>, and Goldman Sachs &amp; Co. LLC (together, "<span style="font-weight: bold;">Goldman Sachs</span>") are acting exclusively for Bidco and Thoma Bravo as financial advisers and no one else in connection with the Acquisition and other matters set out in this announcement and will not be responsible to anyone other than Bidco and Thoma Bravo for providing the protections afforded to clients of Goldman Sachs, nor for providing advice in connection with the Acquisition, the content of this announcement or any matter referred to herein. Neither Goldman Sachs nor any of Goldman Sachs' subsidiaries, affiliates or branches owes or accepts any duty, liability or responsibility whatsoever (whether direct, indirect, consequential, whether in contract, in tort, under statute or otherwise) to any person who is not a client of Goldman Sachs in connection with this announcement, any statement contained herein or otherwise.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Jefferies International Limited ("<span style="font-weight: bold;">Jefferies</span>"), which is authorised and regulated by the FCA in the <location value="LC/gb" idsrc="xmltag.org" >United Kingdom</location>, is acting exclusively as financial adviser to Darktrace and no one else in connection with the matters set out in this announcement and will not be responsible to anyone other than Darktrace for providing the protections afforded to clients of Jefferies nor for providing advice in relation to the matters set out in this announcement. Neither Jefferies nor any of its affiliates owes or accepts any duty, liability or responsibility whatsoever (whether direct or indirect, whether in contract, in tort, under statute or otherwise) to any person who is not a client of Jefferies in connection with this announcement, any statement contained herein or otherwise.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Qatalyst Partners Limited ("<span style="font-weight: bold;">Qatalyst Partners</span>"), which is authorised in the <location value="LC/gb" idsrc="xmltag.org" >UK</location> by the FCA, is acting exclusively as financial adviser to Darktrace and no one else in connection with the Acquisition and will not be acting for any other person and will not be responsible to any person other than Darktrace for providing the protections afforded to clients of Qatalyst Partners or for advising any other person in respect of the matters referred to in this announcement. No representation or warranty, express or implied, is made by Qatalyst Partners as to the contents of this announcement.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Joh. Berenberg, Gossler &amp; Co. KG, <location value="LU/gb.eng.london" idsrc="xmltag.org" >London</location> Branch ("<span style="font-weight: bold;">Berenberg</span>"), which is authorised by the German Federal Financial Supervisory Authority and is authorised and subject to limited regulation by the FCA in the <location value="LC/gb" idsrc="xmltag.org" >United Kingdom</location>, is acting exclusively as a corporate broker and a connected adviser to Darktrace and no one else in connection with the Acquisition and will not be responsible to anyone other than Darktrace for providing the protections afforded to clients of Berenberg nor for providing advice in relation to the Acquisition or any other matters referred to in this announcement. Neither Berenberg nor any of its affiliates owes or accepts any duty, liability or responsibility to any person who is not a client of Berenberg in connection with this announcement, any statement contained herein or otherwise.</span></span></p>
+<p class="ny"><span style="font-weight: bold;" class="rw"><span>Further information</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>This announcement is for information purposes only and is not intended to, and does not, constitute, or form part of, an offer, invitation or the solicitation of an offer to purchase, otherwise acquire, subscribe for, sell or otherwise dispose of, any securities or the solicitation of any vote or approval in any jurisdiction pursuant to the Acquisition or otherwise, nor shall there be any sale, issuance or transfer of securities of Darktrace in any jurisdiction in contravention of applicable law. The Acquisition will be implemented solely pursuant to the terms of the Scheme Document (or, if the Acquisition is implemented by way of an Offer, the offer document), which will contain the full terms and conditions of the Acquisition, including details of how to vote in respect of the Acquisition. Any vote in respect of the Scheme or other response in relation to the Acquisition should be made only on the basis of the information contained in the Scheme Document (or, if the Acquisition is implemented by way of an Offer, the offer document).</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>This announcement contains inside information in relation to Darktrace for the purposes of Article 7 of the Market Abuse Regulation. The person responsible for arranging the release of this announcement on behalf of Darktrace is James Sporle, General Counsel and Company Secretary. Darktrace's Legal Entity Identifier is 213800PC5S5P9CSNFC89.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>This announcement does not constitute a prospectus, prospectus equivalent document or exempted document.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>If you are in any doubt about the contents of this announcement or the action you should take, you are recommended to seek your own independent financial advice immediately from your stockbroker, bank manager, solicitor, accountant or independent financial adviser duly authorised under the Financial Services and Markets Act 2000 (as amended) if you are resident in the <location value="LC/gb" idsrc="xmltag.org" >United Kingdom</location> or, if not, from another appropriately authorised independent financial adviser.</span></span></p>
+<p class="ny"><span style="font-weight: bold;" class="rw"><span>Overseas Shareholders</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>The release, publication or distribution of this announcement in or into jurisdictions other than the <location value="LC/gb" idsrc="xmltag.org" >UK</location> may be restricted by law and therefore any persons who are subject to the law of any jurisdiction other than the <location value="LC/gb" idsrc="xmltag.org" >UK</location> should inform themselves of, and observe, any applicable legal or regulatory requirements. Any failure to comply with such requirements may constitute a violation of the securities laws of any such jurisdiction. To the fullest extent permitted by applicable law, the companies and persons involved in the Acquisition disclaim any responsibility or liability for the violation of such restrictions by any person. This announcement has been prepared in accordance with and for the purpose of complying with English law, the Takeover Code, the Listing Rules, the Market Abuse Regulation and the Disclosure Guidance and Transparency Rules and information disclosed may not be the same as that which would have been prepared in accordance with the laws of jurisdictions outside <location value="LS/gb.eng" idsrc="xmltag.org" >England</location>.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>The availability of the Acquisition to Darktrace Shareholders who are not resident in and citizens of the <location value="LC/gb" idsrc="xmltag.org" >UK</location> may be affected by the laws of the relevant jurisdictions in which they are located or of which they are citizens. Persons who are not resident in the <location value="LC/gb" idsrc="xmltag.org" >UK</location> should inform themselves of, and observe, any applicable legal or regulatory requirements of their jurisdictions. Any person (including, without limitation, nominees, trustees and custodians) who would, or otherwise intends to, forward this announcement, the Scheme Document or any accompanying document to any jurisdiction outside the <location value="LC/gb" idsrc="xmltag.org" >UK</location> should refrain from doing so and seek appropriate professional advice before taking any action. In particular, the ability of persons who are not resident in the <location value="LC/gb" idsrc="xmltag.org" >United Kingdom</location> to vote their Darktrace Shares with respect to the Scheme at the Court Meeting, or to appoint another person as proxy to vote at the Court Meeting on their behalf, may be affected by the laws of the relevant jurisdictions in which they are located. Any failure to comply with the applicable restrictions may constitute a violation of the securities laws of any such jurisdiction. To the fullest extent permitted by applicable law, the companies and persons involved in the Acquisition disclaim any responsibility or liability for the violation of such restrictions by any person. Further details in relation to Overseas Shareholders will be contained in the Scheme Document (or, if the Acquisition is implemented by way of an Offer, the offer document).</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Unless otherwise determined by Bidco or required by the Takeover Code, and permitted by applicable law and regulation, the Acquisition will not be made available, directly or indirectly, in, into, from, or by the use of mails or any means or instrumentality (including, but not limited to, facsimile, e-mail or other electronic transmission, telex or telephone) of interstate or foreign commerce of, or of any facility of a national, state or other securities exchange of, any Restricted Jurisdiction where to do so would violate the laws in that jurisdiction and no person may vote in favour of the Scheme by any such use, means, instrumentality or from within a Restricted Jurisdiction or any other jurisdiction if to do so would constitute a violation of the laws of that jurisdiction. Copies of this announcement and any formal documentation relating to the Acquisition are not being, and must not be, directly or indirectly, mailed or otherwise forwarded, distributed or sent in or into or from any Restricted Jurisdiction and persons receiving such documents (including, without limitation, agents, custodians, nominees and trustees) must not mail or otherwise forward, distribute or send it in or into or from any Restricted Jurisdiction. Doing so may render invalid any related purported vote in respect of the Acquisition. If the Acquisition is implemented by way of an Offer (unless otherwise permitted by applicable law and regulation), the Offer may not be made directly or indirectly, in, into, from, or by the use of mails or any means or instrumentality (including, but not limited to, facsimile, e-mail or other electronic transmission, telex or telephone) of interstate or foreign commerce of, or of any facility of a national, state or other securities exchange of, any Restricted Jurisdiction and the Offer may not be capable of acceptance by any such use, means, instrumentality or facilities.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Further details in relation to Overseas Shareholders will be included in the Scheme Document (or, if the Acquisition is implemented by way of an Offer, the offer document).</span></span></p>
+<p class="ny"><span style="font-weight: bold;" class="rw"><span>Notice to <location value="LC/us" idsrc="xmltag.org" >U.S.</location> Darktrace Shareholders</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>The Acquisition relates to the shares of an English company and is being made by means of a scheme of arrangement provided for under English law. A transaction effected by means of a scheme of arrangement is not subject to the tender offer or proxy solicitation rules under the <location value="LC/us" idsrc="xmltag.org" >U.S.</location> Securities Exchange Act of 1934 (the "<span style="font-weight: bold;"><location value="LC/us" idsrc="xmltag.org" >U.S.</location> Exchange Act</span>"). Accordingly, the Acquisition is subject to the disclosure requirements and practices applicable in the <location value="LC/gb" idsrc="xmltag.org" >UK</location> to schemes of arrangement which differ from the disclosure requirements of the <location value="LC/us" idsrc="xmltag.org" >U.S.</location> tender offer and proxy solicitation rules. The financial information included in this announcement has been prepared in accordance with generally accepted accounting principles of the <location value="LC/gb" idsrc="xmltag.org" >United Kingdom</location> and thus may not be comparable to financial information of <location value="LC/us" idsrc="xmltag.org" >U.S.</location> companies or companies whose financial statements are prepared in accordance with generally accepted accounting principles in <location value="LC/us" idsrc="xmltag.org" >the United States</location>.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>If, in the future, Bidco exercises its right to implement the Acquisition by way of an Offer, which is to be made into <location value="LC/us" idsrc="xmltag.org" >the United States</location>, such Offer will be made in compliance with the applicable <location value="LC/us" idsrc="xmltag.org" >U.S.</location> laws and regulations.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>It may be difficult for <location value="LC/us" idsrc="xmltag.org" >U.S.</location> holders of Darktrace Shares to enforce their rights and any claim arising out of the <location value="LC/us" idsrc="xmltag.org" >U.S.</location> federal laws, since Bidco and Darktrace are located in a non-<location value="LC/us" idsrc="xmltag.org" >U.S.</location> jurisdiction, and some or all of their officers and directors may be residents of a non-<location value="LC/us" idsrc="xmltag.org" >U.S.</location> jurisdiction. <location value="LC/us" idsrc="xmltag.org" >U.S.</location> holders of Darktrace Shares may not be able to sue a non-<location value="LC/us" idsrc="xmltag.org" >U.S.</location> company or its officers or directors in a non-<location value="LC/us" idsrc="xmltag.org" >U.S.</location> court for violations of the <location value="LC/us" idsrc="xmltag.org" >U.S.</location> securities laws. Further, it may be difficult to compel a non-<location value="LC/us" idsrc="xmltag.org" >U.S.</location> company and its affiliates to subject themselves to a <location value="LC/us" idsrc="xmltag.org" >U.S.</location> court's judgement.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>In accordance with normal <location value="LC/gb" idsrc="xmltag.org" >UK</location> practice and pursuant to Rule 14e-5(b) of the <location value="LC/us" idsrc="xmltag.org" >U.S.</location> Exchange Act, Thoma Bravo or their nominees, or their brokers (acting as agents), may from time to time make certain purchases of, or arrangements to purchase, Darktrace Shares outside of the <location value="LC/us" idsrc="xmltag.org" >U.S.</location>, other than pursuant to the Acquisition, until the date on which the Acquisition becomes Effective, lapses or is otherwise withdrawn. Also, in accordance with Rule 14e-5(b) of the <location value="LC/us" idsrc="xmltag.org" >U.S.</location> Exchange Act, Goldman Sachs will continue to act as an exempt principal trader in Darktrace shares on the London Stock Exchange. These purchases may occur either in the open market at prevailing prices or in private transactions at negotiated prices. Any information about such purchases will be disclosed as required in the <location value="LC/gb" idsrc="xmltag.org" >United Kingdom</location>, will be reported to a Regulatory Information Service and will be available on the London Stock Exchange website, www.londonstockexchange.com.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span><location value="LC/us" idsrc="xmltag.org" >U.S.</location> Darktrace Shareholders also should be aware that the transaction contemplated herein may have tax consequences in the <location value="LC/us" idsrc="xmltag.org" >U.S.</location> and, that such consequences, if any, are not described herein. <location value="LC/us" idsrc="xmltag.org" >U.S.</location> Darktrace Shareholders are urged to consult with legal, tax and financial advisers in connection with making a decision regarding this transaction.</span></span></p>
+<p class="ny"><span style="font-weight: bold;" class="rw"><span>Forward Looking Statements</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>This announcement (including information incorporated by reference in this announcement), oral statements made regarding the Acquisition, and other information published by Bidco and Darktrace contain statements which are, or may be deemed to be, "forward-looking statements". Forward-looking statements are prospective in nature and are not based on historical facts, but rather on current expectations and projections of the management of Bidco and Darktrace about future events, and are therefore subject to risks and uncertainties which could cause actual results to differ materially from the future results expressed or implied by the forward-looking statements.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>The forward-looking statements contained in this announcement include statements relating to the expected effects of the Acquisition on Bidco and Darktrace (including their future prospects, developments and strategies), the expected timing and scope of the Acquisition and other statements other than historical facts. Often, but not always, forward-looking statements can be identified by the use of forward-looking words such as "prepares", "plans", "expects" or "does not expect", "is expected", "is subject to", "budget", "projects", "synergy", "strategy", "scheduled", "goal", "estimates", "forecasts", "cost-saving", "intends", "anticipates" or "does not anticipate", or "believes", or variations of such words and phrases or statements that certain actions, events or results "may", "could", "should", "would", "might" or "will" be taken, occur or be achieved. Forward looking statements may include statements relating to the following: (i) future capital expenditures, expenses, revenues, earnings, synergies, economic performance, indebtedness, financial condition, dividend policy, losses and future prospects; (ii) business and management strategies and the expansion and growth of Bidco's, Darktrace's, any member of the Bidco Group or any member of the Darktrace Group's operations and potential synergies resulting from the Acquisition; and (iii) the effects of global economic conditions and governmental regulation on Bidco's, Darktrace's, any member of the Bidco Group or any member of the Darktrace Group's business.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Although Bidco and Darktrace believe that the expectations reflected in such forward-looking statements are reasonable, Bidco and Darktrace can give no assurance that such expectations will prove to be correct. By their nature, forward-looking statements involve risk and uncertainty because they relate to events and depend on circumstances that will occur in the future. There are a number of factors that could cause actual results and developments to differ materially from those expressed or implied by such forward-looking statements.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>These factors include, but are not limited to: the ability to complete the Acquisition; the ability to obtain requisite regulatory and shareholder approvals and the satisfaction of other Conditions on the proposed terms and schedule; changes in the global political, economic, business and competitive environments and in market and regulatory forces; changes in future exchange and interest rates; changes in tax rates; future business combinations or disposals; changes in general economic and business conditions; changes in the behaviour of other market participants; changes in the anticipated benefits from the proposed transaction not being realised as a result of changes in general economic and market conditions in the countries in which Bidco and Darktrace operate, weak, volatile or illiquid capital and/or credit markets, changes in tax rates, interest rate and currency value fluctuations, the degree of competition in the geographic and business areas in which Bidco and Darktrace operate and changes in laws or in supervisory expectations or requirements. Other unknown or unpredictable factors could cause actual results to differ materially from those expected, estimated or projected in the forward-looking statements. If any one or more of these risks or uncertainties materialises or if any one or more of the assumptions proves incorrect, actual results may differ materially from those expected, estimated or projected. Such forward-looking statements should therefore be construed in the light of such factors. Neither Bidco nor Darktrace, nor any of their respective associates or directors, officers or advisers, provides any representation, assurance or guarantee that the occurrence of the events expressed or implied in any forward-looking statements in this announcement will actually occur. You are cautioned not to place any reliance on these forward-looking statements.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Specifically, statements of estimated cost savings and synergies related to future actions and circumstances which, by their nature, involve risks, uncertainties and contingencies. As a result, the cost savings and synergies referred to may not be achieved, may be achieved later or sooner than estimated, or those achieved could be materially different from those estimated. Due to the scale of the Darktrace Group, there may be additional changes to the Darktrace Group's operations. As a result, and given the fact that the changes relate to the future, the resulting cost synergies may be materially greater or less than those estimated.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Other than in accordance with their legal or regulatory obligations, neither Bidco nor Darktrace is under any obligation, and Bidco and Darktrace expressly disclaim any intention or obligation, to update or revise any forward-looking statements, whether as a result of new information, future events or otherwise.</span></span></p>
+<p class="ny"><span style="font-weight: bold;" class="rw"><span>Dealing and Opening Position Disclosure Requirements</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Under Rule 8.3(a) of the Takeover Code, any person who is interested in 1% or more of any class of relevant securities of an offeree company or of any securities exchange offeror (being any offeror other than an offeror in respect of which it has been announced that its offer is, or is likely to be, solely in cash) must make an Opening Position Disclosure following the commencement of the offer period and, if later, following the announcement in which any securities exchange offeror is first identified. An Opening Position Disclosure must contain details of the person's interests and short positions in, and rights to subscribe for, any relevant securities of each of (i) the offeree company and (ii) any securities exchange offeror(s). An Opening Position Disclosure by a person to whom Rule 8.3(a) of the Takeover Code applies must be made by no later than 3.30 pm (<location value="LU/gb.eng.london" idsrc="xmltag.org" >London</location> time) on the 10th business day following the commencement of the offer period and, if appropriate, by no later than 3.30 pm (<location value="LU/gb.eng.london" idsrc="xmltag.org" >London</location> time) on the 10th business day following the announcement in which any securities exchange offeror is first identified. Relevant persons who deal in the relevant securities of the offeree company or of a securities exchange offeror prior to the deadline for making an Opening Position Disclosure must instead make a Dealing Disclosure.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Under Rule 8.3(b) of the Takeover Code, any person who is, or becomes, interested in 1% or more of any class of relevant securities of the offeree company or of any securities exchange offeror must make a Dealing Disclosure if the person deals in any relevant securities of the offeree company or of any securities exchange offeror. A Dealing Disclosure must contain details of the dealing concerned and of the person's interests and short positions in, and rights to subscribe for, any relevant securities of each of (i) the offeree company and (ii) any securities exchange offeror(s), save to the extent that these details have previously been disclosed under Rule 8. A Dealing Disclosure by a person to whom Rule 8.3(b) applies must be made by no later than 3.30 pm (<location value="LU/gb.eng.london" idsrc="xmltag.org" >London</location> time) on the business day following the date of the relevant dealing.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>If two or more persons act together pursuant to an agreement or understanding, whether formal or informal, to acquire or control an interest in relevant securities of an offeree company or a securities exchange offeror, they will be deemed to be a single person for the purpose of Rule 8.3.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Opening Position Disclosures must also be made by the offeree company and by any offeror and Dealing Disclosures must also be made by the offeree company, by any offeror and by any persons acting in concert with any of them (see Rules 8.1, 8.2 and 8.4).</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Details of the offeree and offeror companies in respect of whose relevant securities Opening Position Disclosures and Dealing Disclosures must be made can be found in the Disclosure Table on the Panel's website at www.thetakeoverpanel.org.uk, including details of the number of relevant securities in issue, when the offer period commenced and when any offeror was first identified. You should contact the Panel's Market Surveillance Unit on +44 (0)20 7638 0129 if you are in any doubt as to whether you are required to make an Opening Position Disclosure or a Dealing Disclosure.</span></span></p>
+<p class="ny"><span style="font-weight: bold;" class="rw"><span>Publication on a website</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>A copy of this announcement will be made available, subject to certain restrictions relating to persons resident in Restricted Jurisdictions, on Darktrace's website at https://ir.darktrace.com by no later than 12 noon (<location value="LU/gb.eng.london" idsrc="xmltag.org" >London</location> time) on the Business Day following this announcement. For the avoidance of doubt, neither the content of such website nor of any website accessible from hyperlinks set out in this announcement is incorporated by reference or forms part of this announcement.</span></span></p>
+<p class="ny"><span style="font-weight: bold;" class="rw"><span>Requesting hard copy documents</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>In accordance with Rule 30.3 of the Takeover Code, Darktrace Shareholders, persons with information rights and participants in Darktrace Share Schemes may request a hard copy of this announcement, free of charge, by</span></span> <span style="font-style: italic;">contacting Darktrace's registrar, Equiniti Limited, either in writing to Aspect House, Spencer Road, Lancing, <location value="LT/gb.eng.wsussx" idsrc="xmltag.org" >West Sussex</location>, BN99 6DA, <location value="LC/gb" idsrc="xmltag.org" >United Kingdom</location> or by calling +44 (0) 333 207 6394. Calls outside the <location value="LC/gb" idsrc="xmltag.org" >U.K.</location> will be charged at the applicable international rate. Lines are open between 8.30 a.m. and 5.30 p.m. (<location value="LU/gb.eng.london" idsrc="xmltag.org" >London</location> time) Monday to Friday excluding public holidays in <location value="LS/gb.eng" idsrc="xmltag.org" >England</location> and <location value="LS/gb.wal" idsrc="xmltag.org" >Wales</location>. <span>For persons who receive a copy of this announcement in electronic form or via a website notification, a hard copy of this announcement will not be sent unless so requested. In accordance with Rule 30.3 of the Takeover Code, such persons may also request that all future documents, announcements and information to be sent to them in relation to the Acquisition should be in hard copy form.</span></span></p>
+<p class="ny"><span style="font-weight: bold;" class="rw"><span>Rounding</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>Certain figures included in this announcement have been subjected to rounding adjustments. Accordingly, figures shown for the same category presented in different tables may vary slightly and figures shown as totals in certain tables may not be an arithmetic aggregation of figures that precede them.</span></span></p>
+<p class="ny"><span style="font-style: italic;"><span>&nbsp;</span></span></p>
+</div>
+<p><span style="font-style: italic;"><span class="ru"><br class="rv" /></span></span></p>
+<div class="po">
+<p class="su" style="text-align:center;"><span style="font-weight: bold;"><span>Appendix 1</span></span></p>
+<p class="su" style="text-align:center;"><span style="font-weight: bold;"><span>Expected timetable of principal events</span></span></p>
+<p class="sv"><span style="font-style: italic;"><span class="rt">All times shown are <location value="LU/gb.eng.london" idsrc="xmltag.org" >London, United Kingdom</location> times unless otherwise stated. All dates and times are based on Darktrace's and Bidco's current expectations and are subject to change. If any of the dates and/or times in this expected timetable change, the revised dates and/or times will be notified to Darktrace Shareholders by announcement through a Regulatory Information Service, with such announcement being made available on Darktrace's website at</span></span> <span><span class="rs"><a class="rr" href="https://ir.darktrace.com/">https://ir.darktrace.com/</a></span></span><span style="font-style: italic;"><span class="rt">.</span></span></p>
+<table class="table table-responsive"   cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="width: 276;" valign="top" class="ro">
+<p class="sw"><span style="font-weight: bold;"><span class="rt">Event</span></span></p>
+</td>
+<td style="width: 263;" valign="top" class="rm">
+<p class="sx" style="text-align:right;"><span style="font-weight: bold;"><span class="rt">Expected time/date</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<div>
+<table cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" style="text-align:left;" class="rj">
+<p class="sy"><span style="font-weight: bold;"><span class="rl">&nbsp;</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<table class="table table-responsive"   cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="width: 51%;" colspan="4" class="ri">
+<p class="sw"><span class="rt">Publication of the Scheme Document</span></p>
+</td>
+<td style="width: 48%;" colspan="4" valign="top" class="rg">
+<p class="ta" style="text-align:right;"><span class="rt">23 May 2024</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 51%;" colspan="4" class="ri">
+<p class="sw"><span class="rt">Latest time for lodging Forms of Proxy for:</span></p>
+<p class="tb"><span class="rt">Court Meeting (BLUE form)</span></p>
+<p class="tb"><span class="rt">General Meeting (WHITE form)</span></p>
+</td>
+<td style="width: 48%;" colspan="4" valign="top" class="rg">
+<p class="ta" style="text-align:right;"><span style="font-weight: bold;"><span class="rt">&nbsp;</span></span></p>
+<p class="ta" style="text-align:right;"><span style="font-weight: bold;"><span class="rt">2.30 p.m.</span></span> <span class="rt"><span style="font-weight: bold;">on</span> <span style="font-weight: bold;">14 June 2024</span><sup>(1)</sup></span></p>
+<p class="sx" style="text-align:right;"><span style="font-weight: bold;"><span class="rt">2.45 p.m.</span></span> <span class="rt"><span style="font-weight: bold;">on</span> <span style="font-weight: bold;">14 June 2024</span><sup>(1)</sup></span></p>
+</td>
+</tr>
+<tr class="rb">
+<td style="width: 48%;" colspan="3" class="re">
+<p class="sw"><span class="rt">Voting Record Time</span></p>
+</td>
+<td style="width: 50%;" colspan="3" valign="top" class="rd">
+<p class="sx" style="text-align:right;"><span class="rt">6.30&nbsp;p.m. on 14 June 2024<sup>(2)</sup></span></p>
+</td>
+<td class="rc" style="width: 6;" colspan="2">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr class="rb">
+<td style="width: 48%;" colspan="3" class="re">
+<p class="sw"><span class="rt"><br /></span></p>
+</td>
+<td style="width: 50%;" colspan="3" valign="top" class="rd">
+<p class="sx" style="text-align:right;"><span class="rt"><br /></span></p>
+</td>
+<td class="rc" style="width: 6;" colspan="2">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr class="rb">
+<td style="width: 45%;" class="ra">
+<p class="sw"><span style="font-weight: bold;"><span class="rt">Court Meeting</span></span></p>
+</td>
+<td style="width: 53%;" colspan="6" valign="top" class="qz">
+<p class="sx" style="text-align:right;"><span style="font-weight: bold;"><span class="rt">2.30 p.m. on 18 June 2024 &nbsp;</span></span></p>
+</td>
+<td class="rc" style="width: 3;">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr class="qw">
+<td style="width: 45%;" class="qy">
+<p class="sw"><span style="font-weight: bold;"><span class="rt">General Meeting</span></span></p>
+</td>
+<td style="width: 53%;" colspan="6" valign="top" class="qx">
+<p class="sx" style="text-align:right;"><span style="font-weight: bold;"><span class="rt">2.45 p.m. on 18 June 2024</span></span><sup><span class="rt">(3)</span></sup></p>
+</td>
+<td class="rc" style="width: 3;">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 99%;" colspan="7" class="qv">
+<p class="sw"><span style="font-weight: bold;" class="rw"><span class="rt">&nbsp;</span></span></p>
+</td>
+<td class="rc" style="width: 3;">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 99%;" colspan="7" class="qv">
+<p class="sw"><span style="font-weight: bold;" class="rw"><span class="rt">The following dates are indicative only and subject to change; please see note (4) below</span></span></p>
+</td>
+<td class="rc" style="width: 3;">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr class="qr">
+<td style="width: 45%;" valign="top" class="qu">
+<p class="sw"><span class="rt"><br /></span></p>
+</td>
+<td style="width: 53%;" colspan="6" valign="top" class="qs">
+<p class="tc" style="text-align:center;"><span class="rt"><br /></span></p>
+</td>
+<td class="rc" style="width: 3;">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr class="qr">
+<td style="width: 67%;" colspan="5" valign="top" class="qq">
+<p class="sw"><span class="rt">Court Hearing</span></p>
+</td>
+<td style="width: 31%;" colspan="2" valign="top" class="qp">
+<p class="sx" style="text-align:right;"><span class="rt">As soon as reasonably practicable after the satisfaction or waiver of Conditions 3(a) to 3(g)( set out in Part A of Part III(<span style="font-style: italic;">Conditions to and further terms of the Acquisition and the Scheme</span>) of the Scheme Document ("</span><span style="font-weight: bold;"><span class="rt">D</span></span><span class="rt">")</span><sup><span class="rt">(4)</span></sup></p>
+</td>
+<td class="rc" style="width: 3;">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr class="qr">
+<td style="width: 67%;" colspan="5" valign="top" class="qq">
+<p class="sw"><span class="rt"><br /></span></p>
+</td>
+<td style="width: 31%;" colspan="2" valign="top" class="qp">
+<p class="sx" style="text-align:right;"><span class="rt"><br /></span></p>
+</td>
+<td class="rc" style="width: 3;">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr class="qm">
+<td style="width: 48%;" colspan="3" class="qo">
+<p class="sw"><span class="rt">Last day of dealings in, and for registration of transfer of Darktrace Shares</span></p>
+</td>
+<td style="width: 50%;" colspan="3" valign="top" class="qn">
+<p class="sx" style="text-align:right;"><span class="rt">D + 1 Business Day</span> <sup><span class="rt">(4)</span></sup></p>
+</td>
+<td class="rc" style="width: 6;" colspan="2">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr class="qm">
+<td style="width: 48%;" colspan="3" valign="top" class="qo">
+<p class="sw"><span class="rt">Last day for receipt of GREEN Form of Election or TTE Instruction for Currency Election / Election Return Time</span></p>
+</td>
+<td style="width: 50%;" colspan="3" valign="top" class="qn">
+<p class="sx" style="text-align:right;"><span class="rt">1.00&nbsp;p.m. on D+1 Business Day <sup>(4)(5)</sup></span></p>
+</td>
+<td class="rc" style="width: 6;" colspan="2">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 48%;" colspan="3" class="ql">
+<p class="sw"><span class="rt">Disablement of CREST in respect of Darktrace Shares</span></p>
+</td>
+<td style="width: 50%;" colspan="3" valign="top" class="qk">
+<p class="sx" style="text-align:right;"><span class="rt">6.00&nbsp;p.m. on D + 1 Business Day<span style="font-weight: bold;"><sup>(</sup></span><sup>4)</sup></span></p>
+</td>
+<td class="rc" style="width: 6;" colspan="2">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 48%;" colspan="3" class="ql">
+<p class="sw"><span class="rt">Scheme Record Time</span></p>
+</td>
+<td style="width: 50%;" colspan="3" valign="top" class="qk">
+<p class="sx" style="text-align:right;"><span class="rt">6.00&nbsp;p.m. on D + 1 Business Day<sup>(4)</sup></span></p>
+</td>
+<td class="rc" style="width: 6;" colspan="2">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 47%;" colspan="2" class="qj">
+<p class="sw"><span class="rt">Suspension of listing of and dealings in Darktrace Shares</span></p>
+</td>
+<td style="width: 51%;" colspan="4" valign="top" class="qi">
+<p class="sx" style="text-align:right;"><span class="rt">by 8.00&nbsp;a.m. on D + 2 Business Days<span style="font-weight: bold;"><sup>(</sup></span><sup>4)</sup></span></p>
+</td>
+<td class="rc" style="width: 6;" colspan="2">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr class="qr">
+<td style="width: 47%;" colspan="2" class="qh">
+<p class="sw"><span style="font-weight: bold;"><span class="rt">Effective Date of the Scheme</span></span></p>
+</td>
+<td style="width: 51%;" colspan="4" valign="top" class="qg">
+<p class="sx" style="text-align:right;"><span style="font-weight: bold;"><span class="rt">D + 2 Business Days<sup>(4)</sup></span></span></p>
+</td>
+<td class="rc" style="width: 6;" colspan="2">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr class="qm">
+<td style="width: 47%;" colspan="2" class="qf">
+<p class="sw"><span class="rt">Cancellation of listing and admission to trading of Darktrace Shares</span></p>
+</td>
+<td style="width: 51%;" colspan="4" valign="top" class="qe">
+<p class="sx" style="text-align:right;"><span class="rt">by 8.00&nbsp;a.m. on D + 3 Business Days<sup>(4)</sup></span></p>
+</td>
+<td class="rc" style="width: 6;" colspan="2">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr class="qm">
+<td style="width: 48%;" colspan="3" class="qo">
+<p class="sw"><span class="rt">Latest date for dispatch of cheques/settlement through CREST and processing electronic transfers for Consideration due under the Scheme</span></p>
+</td>
+<td style="width: 50%;" colspan="3" valign="top" class="qn">
+<p class="sx" style="text-align:right;"><span class="rt">14&nbsp;days after the Effective Date</span></p>
+</td>
+<td class="rc" style="width: 6;" colspan="2">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr class="qm">
+<td style="width: 48%;" colspan="3" class="qo">
+<p class="sw"><span class="rt">Long Stop Date</span></p>
+</td>
+<td style="width: 50%;" colspan="3" valign="top" class="qn">
+<p class="sx" style="text-align:right;"><span class="rt">27 January 2025</span><sup><span class="rt">(6)</span></sup></p>
+</td>
+<td class="rc" style="width: 6;" colspan="2">
+<p class="a">&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 0;">
+<td style="width: 277;" class="qd"></td>
+<td style="width: 7;" class="qd"></td>
+<td style="width: 7;" class="qd"></td>
+<td style="width: 17;" class="qd"></td>
+<td style="width: 101;" class="qd"></td>
+<td style="width: 187;" class="qd"></td>
+<td style="width: 3;" class="qd"></td>
+<td style="width: 3;" class="qd"></td>
+</tr>
+</tbody>
+</table>
+<p class="td"><span style="font-weight: bold;"><span class="qb">&nbsp;</span></span></p>
+<p class="td"><span style="font-weight: bold;" class="pz"><span class="qb">Notes:</span></span></p>
+<p class="te"><span class="py">(1)&nbsp; The BLUE Form of Proxy for the Court Meeting, if not received by the time stated above (or, if the Court Meeting is adjourned, 48 hours (excluding non-working days) before the adjourned Court Meeting), may be (i) handed to representatives of Equiniti or the Chair of the Court Meeting before the start of that Meeting, or (ii) scanned and emailed to Equiniti and received before the start of that meeting at the following email address:</span> <span><span class="px"><a href="mailto:proxyvotes@equiniti.com">proxyvotes@equiniti.com</a></span></span><span class="py">, and will still be valid. However, in order to be valid, the WHITE Form of Proxy for the General Meeting must be received no later than 2.45 p.m. on 14 June 2024 (or, if the General Meeting is adjourned, 48&nbsp;hours (excluding non-working days) before the time fixed for the adjourned Meeting). Please see "<span style="font-style: italic;">Action to be taken</span>" on pages 9 to 12 of the Scheme Document.</span></p>
+<p class="te"><span class="py">(2)&nbsp; If either the Court Meeting or the General Meeting is adjourned, the Voting Record Time for the relevant adjourned Meeting will be 6.30&nbsp;p.m. on the date which is two Business Days before the date set for such adjourned Meeting.</span></p>
+<p class="te"><span class="py">(3)&nbsp; To commence at 2.45 p.m. or, as soon thereafter as the Court Meeting shall have concluded or adjourned.</span></p>
+<p class="te"><span class="py">(4)&nbsp; These times and dates are indicative only and will depend on, among other things, the dates upon which (i) the Conditions are satisfied or (where applicable) waived, (ii) the Court sanctions the Scheme, and (iii) the Court Order sanctioning the Scheme is delivered to the Registrar of Companies. If the expected dates of the Court Hearing are changed, Darktrace will give adequate notice of the changes by issuing an announcement through a Regulatory Information Service (with such announcement being made available on Darktrace's website at</span> <span><span class="pv"><a href="https://ir.darktrace.com/">https://ir.darktrace.com/</a></span></span><span class="py">) and, if required by the Panel, send notice of the change(s) to Darktrace Shareholders and, for information only, to participants in the Darktrace Share Schemes and persons with information rights. Further updates and changes to these times will be notified in the same way.</span></p>
+<p class="te"><span class="py">(5)&nbsp; The latest time for Equiniti to receive your GREEN Form of Election or for a TTE Instruction to be made is expected to be 1.00 p.m. on the Business Day immediately prior to the Effective Date (which is currently expected to take place in the third or fourth quarter of 2024). You should allow sufficient time for posting for your GREEN Form of Election or TTE Instruction to be received.</span></p>
+<p class="tf"><span class="py">(6)&nbsp; The latest date by which the Scheme must become Effective, which may be extended by agreement between Darktrace and Bidco with the prior consent of the Panel and (if required) the approval of the Court.</span></p>
+</div>
+<p><span class="ru"><br class="rv" /></span></p>
+<div class="pp">
+<p class="sn" style="text-align:center;"><span style="font-weight: bold;"><span>Appendix 2</span></span></p>
+<p class="sn" style="text-align:center;"><span style="font-weight: bold;"><span>Details of Irrevocable Undertakings</span></span></p>
+<p class="ny"><span>Bidco has received an irrevocable undertaking</span> <span>dated 23 May 2024 from Nicholas Trim to vote (or, where applicable, procure voting) in favour of the Scheme at the Court Meeting and the Special Resolution to be proposed at the General Meeting (or in the event that the Acquisition is implemented by an Offer, to accept or procure acceptance of such Offer), in respect of the following number of Darktrace Shares that be beneficially owns or controls:</span></p>
+<table class="table table-responsive"   cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="width: 316;" valign="top" class="pt">
+<p class="sv"><span style="font-weight: bold;"><span>Name</span></span></p>
+</td>
+<td style="width: 127;" valign="top" class="ps">
+<p class="sv"><span style="font-weight: bold;"><span>Percentage of existing issued share capital (excluding treasury shares)</span></span></p>
+</td>
+<td style="width: 118;" valign="top" class="pr">
+<p class="sv"><span style="font-weight: bold;"><span>Number of<br />
+Darktrace Shares</span></span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 316;" valign="top" class="pt">
+<p class="sv"><span>Nicholas Trim</span></p>
+</td>
+<td style="width: 127;" valign="top" class="ps">
+<p class="sv"><span>2,146,460</span></p>
+</td>
+<td style="width: 118;" valign="top" class="pr">
+<p class="sv"><span>0.30%</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="ny"><span>&nbsp;</span></p>
+<p class="ny"><span>This irrevocable undertakings also extend to any Darktrace Shares acquired by Nicholas Trim, whether as a result of the exercise of options or the vesting of awards under the Darktrace Share Schemes or otherwise.</span></p>
+<p class="ny"><span>The irrevocable undertaking referred to in this Appendix 2 ceases to be binding on the earlier of the following occurrences: (i) the Scheme Document is not sent to Darktrace Shareholders within 28 days (or such later period as the Panel may agree) after the date of the announcement</span> released by Bidco on 26 April 2024 pursuant to Rule 2.7 of the Takeover Code in relation to the Acquisition<span>; (ii) Bidco announces, with the consent of the Panel, that it does not intend to make or proceed with the Acquisition and no new, revised or replacement offer or scheme is announced in accordance with Rule 2.7 of the Takeover Code at the same time; (iii) the Scheme lapses or is withdrawn in accordance with its terms unless, by or prior to such time, Bidco has elected to exercise its right to proceed by way of an Offer and announced the same in accordance with the requirements of Paragraph 8 of Appendix 7 to the Takeover Code, and such Offer has not lapsed or been withdrawn; (iv) the Scheme has not become Effective by 11.59 p.m. on the Long Stop Date (or such later time and/or date as agreed between Bidco and Darktrace, with the approval of the Court and/or the Panel, if required (other than in circumstances where Bidco has, prior to such date, elected to exercise its right to proceed by way of an Offer and announced the same in accordance with the requirements of Paragraph 8 of Appendix 7 to the Takeover Code, and such Offer has not lapsed or been withdrawn)); or (v) the date on which any competing offer for the entire issued, and to be issued, share capital of Darktrace is declared wholly unconditional or, if proceeding by way of a scheme of arrangement, becomes Effective.</span></p>
+</div>
+</div>
+
+
+<div style="text-align:left;"><div>This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the <location value="LC/gb" idsrc="xmltag.org" >United Kingdom</location>. Terms and conditions relating to the use and distribution of this information may apply. For further information, please contact <a href="mailto:rns@lseg.com">rns@lseg.com</a> or visit <a href="http://www.rns.com/">www.rns.com</a>.<br/><br/>RNS may use your IP address to confirm compliance with the terms and conditions, to analyse how you engage with the information contained in this communication, and to share such analysis on an anonymised basis with others as part of our commercial services. For further information about how RNS and the London Stock Exchange use the personal data you provide us, please see our <a href="https://www.lseg.com/privacy-and-cookie-policy">Privacy Policy</a>.</div><div>&nbsp;</div> END</div><div>&nbsp;</div><div>&nbsp;</div>SOAFFFVVEFIFFIS
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="dt-paginator">
+
+      <div class="row dt-paginator-item">
+      <div class="col-3">
+        <div class="dt-paginator-prev text-right">Previous:</div>
+      </div>
+      <div class="col-9">
+        <a
+          class="dt-paginator-prev-link"
+          href="https://ir.darktrace.com/regulatory-news/2024/05/22/1823519"
+        >Form 8.3 - Darktrace plc&nbsp;&rsaquo;</a>
+      </div>
+    </div>
+  
+      <div class="row dt-paginator-item">
+      <div class="col-3">
+        <div class="dt-paginator-prev text-right">Next:</div>
+      </div>
+      <div class="col-9">
+        <a
+          class="dt-paginator-prev-link"
+          href="https://ir.darktrace.com/regulatory-news/2024/05/24/1824332"
+        >Form 8.3 - Darktrace plc&nbsp;&rsaquo;</a>
+      </div>
+    </div>
+  
+      <div class="row dt-paginator-item">
+      <div class="col-3">
+        <div class="dt-paginator-prev text-right">Back to:</div>
+      </div>
+      <div class="col-9">
+        <a
+          class="dt-paginator-prev-link"
+          href="https://ir.darktrace.com/regulatory-news"
+        >Back to Regulatory News&nbsp;&#x2303;</a>
+      </div>
+    </div>
+  
+</div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+      </div>
+
+    </main>
+
+    <!-- SEARCH BOX -->
+    
+    <!-- FOOTER -->
+    <footer class="mb-4">
+  <div class="container">
+
+    <!-- SM AND BELOW ====================================================== -->
+
+    <div class="d-md-none">
+      <div class="row">
+        <div class="col-12">
+          <!--
+          <div class="row">
+  <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+
+    <h2><a href="https://darktrace.com/products">Products</a></h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/products/prevent">Darktrace PREVENT</a></li>
+      <li><a href="https://darktrace.com/products/detect">Darktrace DETECT</a></li>
+      <li><a href="https://darktrace.com/products/respond">Darktrace RESPOND</a></li>
+      <li><a href="https://darktrace.com/products/heal">Darktrace HEAL</a></li>
+    </ul>
+
+    <h2>Core Coverage</h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/products/cloud">Cloud</a></li>
+      <li><a href="https://darktrace.com/products/apps">Apps</a></li>
+      <li><a href="https://darktrace.com/products/email">Email</a></li>
+      <li><a href="https://darktrace.com/products/endpoint">Endpoint</a></li>
+      <li><a href="https://darktrace.com/products/zero-trust">Zero Trust</a></li>
+      <li><a href="https://darktrace.com/products/network">Network</a></li>
+      <li><a href="https://darktrace.com/products/operational-technology">OT</a></li>
+    </ul>
+
+  </div>
+  <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+
+    <h2><a href="https://darktrace.com/research">AI Research Centre</a></h2>
+
+    <h2>Company</h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/company">Company Overview</a></li>
+      <li><a href="https://darktrace.com/contact">Contact</a></li>
+      <li><a href="https://darktrace.com/blog">Blog</a></li>
+      <li><a href="https://darktrace.com/news">Newsroom</a></li>
+      <li><a href="https://ir.darktrace.com/">Investors</a></li>
+    </ul>
+
+    <h2>Partners</h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/partners">Partners Overview</a></li>
+      <li><a href="https://darktrace.com/technology-partners">Technology Partners</a></li>
+      <li><a href="https://darktrace.com/integrations">Integrations</a></li>
+    </ul>
+
+  </div>
+  <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+
+    <h2>Legal</h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/legal/privacy-policy">Privacy Policy</a></li>
+      <li><a href="https://darktrace.com/legal/cookie-policy">Cookie Policy</a></li>
+      <li><a href="https://darktrace.com/legal/modern-slavery-act-statement">Modern Slavery Act Statement</a></li>
+      <li><a href="https://darktrace.com/legal/public-tax-strategy">Public Tax Strategy</a></li>
+      <li><a href="https://darktrace.com/legal/vulnerability-disclosure-policy">Vulnerability Disclosure Policy</a></li>
+    </ul>
+
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/">www.darktrace.com</a></li>
+    </ul>
+
+  </div>
+</div>
+          -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <div class="footer-certs">
+  <div class="mb-3">
+    <a
+      class="mr-2"
+      href="https://www.darktrace.com/en/resources/cyber-essentials.pdf"
+      target="_blank"
+    ><img src="/images/certifications/iso-cyber-essentials.png"/></a>
+  </div>
+  <div class="mb-3">
+    <a
+      href="https://www.bsigroup.com/en-GB/our-services/certification/certificate-and-client-directory/"
+      target="_blank"
+    ><img src="/images/certifications/iso-27001-white.png"/></a>
+  </div>
+</div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <ul class="list-unstyled footer-links text-right">
+  <li>Copyright &copy; 2026 Darktrace Holdings Limited. All rights reserved.</li>
+</ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- MD ================================================================ -->
+
+    <div class="d-none d-lg-none d-md-block">
+      <div class="row">
+        <div class="col-12">
+          <!--
+          <div class="row">
+  <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+
+    <h2><a href="https://darktrace.com/products">Products</a></h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/products/prevent">Darktrace PREVENT</a></li>
+      <li><a href="https://darktrace.com/products/detect">Darktrace DETECT</a></li>
+      <li><a href="https://darktrace.com/products/respond">Darktrace RESPOND</a></li>
+      <li><a href="https://darktrace.com/products/heal">Darktrace HEAL</a></li>
+    </ul>
+
+    <h2>Core Coverage</h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/products/cloud">Cloud</a></li>
+      <li><a href="https://darktrace.com/products/apps">Apps</a></li>
+      <li><a href="https://darktrace.com/products/email">Email</a></li>
+      <li><a href="https://darktrace.com/products/endpoint">Endpoint</a></li>
+      <li><a href="https://darktrace.com/products/zero-trust">Zero Trust</a></li>
+      <li><a href="https://darktrace.com/products/network">Network</a></li>
+      <li><a href="https://darktrace.com/products/operational-technology">OT</a></li>
+    </ul>
+
+  </div>
+  <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+
+    <h2><a href="https://darktrace.com/research">AI Research Centre</a></h2>
+
+    <h2>Company</h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/company">Company Overview</a></li>
+      <li><a href="https://darktrace.com/contact">Contact</a></li>
+      <li><a href="https://darktrace.com/blog">Blog</a></li>
+      <li><a href="https://darktrace.com/news">Newsroom</a></li>
+      <li><a href="https://ir.darktrace.com/">Investors</a></li>
+    </ul>
+
+    <h2>Partners</h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/partners">Partners Overview</a></li>
+      <li><a href="https://darktrace.com/technology-partners">Technology Partners</a></li>
+      <li><a href="https://darktrace.com/integrations">Integrations</a></li>
+    </ul>
+
+  </div>
+  <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+
+    <h2>Legal</h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/legal/privacy-policy">Privacy Policy</a></li>
+      <li><a href="https://darktrace.com/legal/cookie-policy">Cookie Policy</a></li>
+      <li><a href="https://darktrace.com/legal/modern-slavery-act-statement">Modern Slavery Act Statement</a></li>
+      <li><a href="https://darktrace.com/legal/public-tax-strategy">Public Tax Strategy</a></li>
+      <li><a href="https://darktrace.com/legal/vulnerability-disclosure-policy">Vulnerability Disclosure Policy</a></li>
+    </ul>
+
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/">www.darktrace.com</a></li>
+    </ul>
+
+  </div>
+</div>
+          -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="footer-certs">
+  <div class="mb-3">
+    <a
+      class="mr-2"
+      href="https://www.darktrace.com/en/resources/cyber-essentials.pdf"
+      target="_blank"
+    ><img src="/images/certifications/iso-cyber-essentials.png"/></a>
+  </div>
+  <div class="mb-3">
+    <a
+      href="https://www.bsigroup.com/en-GB/our-services/certification/certificate-and-client-directory/"
+      target="_blank"
+    ><img src="/images/certifications/iso-27001-white.png"/></a>
+  </div>
+</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <ul class="list-unstyled footer-links text-right">
+  <li>Copyright &copy; 2026 Darktrace Holdings Limited. All rights reserved.</li>
+</ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- LG AND ABOVE ====================================================== -->
+
+    <div class="d-none d-lg-block">
+      <!--
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+          <div class="row">
+  <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+
+    <h2><a href="https://darktrace.com/products">Products</a></h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/products/prevent">Darktrace PREVENT</a></li>
+      <li><a href="https://darktrace.com/products/detect">Darktrace DETECT</a></li>
+      <li><a href="https://darktrace.com/products/respond">Darktrace RESPOND</a></li>
+      <li><a href="https://darktrace.com/products/heal">Darktrace HEAL</a></li>
+    </ul>
+
+    <h2>Core Coverage</h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/products/cloud">Cloud</a></li>
+      <li><a href="https://darktrace.com/products/apps">Apps</a></li>
+      <li><a href="https://darktrace.com/products/email">Email</a></li>
+      <li><a href="https://darktrace.com/products/endpoint">Endpoint</a></li>
+      <li><a href="https://darktrace.com/products/zero-trust">Zero Trust</a></li>
+      <li><a href="https://darktrace.com/products/network">Network</a></li>
+      <li><a href="https://darktrace.com/products/operational-technology">OT</a></li>
+    </ul>
+
+  </div>
+  <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+
+    <h2><a href="https://darktrace.com/research">AI Research Centre</a></h2>
+
+    <h2>Company</h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/company">Company Overview</a></li>
+      <li><a href="https://darktrace.com/contact">Contact</a></li>
+      <li><a href="https://darktrace.com/blog">Blog</a></li>
+      <li><a href="https://darktrace.com/news">Newsroom</a></li>
+      <li><a href="https://ir.darktrace.com/">Investors</a></li>
+    </ul>
+
+    <h2>Partners</h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/partners">Partners Overview</a></li>
+      <li><a href="https://darktrace.com/technology-partners">Technology Partners</a></li>
+      <li><a href="https://darktrace.com/integrations">Integrations</a></li>
+    </ul>
+
+  </div>
+  <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+
+    <h2>Legal</h2>
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/legal/privacy-policy">Privacy Policy</a></li>
+      <li><a href="https://darktrace.com/legal/cookie-policy">Cookie Policy</a></li>
+      <li><a href="https://darktrace.com/legal/modern-slavery-act-statement">Modern Slavery Act Statement</a></li>
+      <li><a href="https://darktrace.com/legal/public-tax-strategy">Public Tax Strategy</a></li>
+      <li><a href="https://darktrace.com/legal/vulnerability-disclosure-policy">Vulnerability Disclosure Policy</a></li>
+    </ul>
+
+    <ul class="list-unstyled footer-links">
+      <li><a href="https://darktrace.com/">www.darktrace.com</a></li>
+    </ul>
+
+  </div>
+</div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+          <div class="footer-certs">
+  <div class="mb-3">
+    <a
+      class="mr-2"
+      href="https://www.darktrace.com/en/resources/cyber-essentials.pdf"
+      target="_blank"
+    ><img src="/images/certifications/iso-cyber-essentials.png"/></a>
+  </div>
+  <div class="mb-3">
+    <a
+      href="https://www.bsigroup.com/en-GB/our-services/certification/certificate-and-client-directory/"
+      target="_blank"
+    ><img src="/images/certifications/iso-27001-white.png"/></a>
+  </div>
+</div>
+        </div>
+      </div>
+      -->
+      <div class="row">
+        <div class="col-6">
+          <ul class="list-unstyled footer-links">
+            <li><a href="https://darktrace.com/">https://darktrace.com/</a></li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <ul class="list-unstyled footer-links text-right">
+  <li>Copyright &copy; 2026 Darktrace Holdings Limited. All rights reserved.</li>
+</ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- =================================================================== -->
+  
+  </div>
+</footer>
+
+    <!-- OPTIONAL FINAL SCRIPTS BLOCK -->
+      <script type="text/javascript">
+  window.addEventListener(
+    "load",
+    ( event ) => {
+
+      const resetDisclaimerPages = function ()
+      {
+        window.$("#disclaimerPage1").css( "display", "block" );
+        window.$("#disclaimerPage3").css( "display", "none" );
+        window.$("#disclaimerPage4").css( "display", "none" );
+        document.getElementById( "disclaimerCountries" ).selectedIndex = 0;
+        document.getElementById( "DisclaimerPage1NextButton" ).disabled = true;
+      }
+
+      window.$("#modal_disclaimer").on( 'show.bs.modal', resetDisclaimerPages );
+      window.$("#modal_disclaimer").on( 'hide.bs.modal', resetDisclaimerPages );
+
+      document.getElementById( "disclaimerCountries" ).addEventListener(
+        "change",
+        ( event ) => {
+          const el            = event.target;
+          const selectedIndex = el.selectedIndex;
+          if( selectedIndex > 0 )
+          {
+            document.getElementById( "DisclaimerPage1NextButton" ).disabled = false;
+          }
+          else
+          {
+            document.getElementById( "DisclaimerPage1NextButton" ).disabled = true;
+          }
+        }
+      );
+
+      document.getElementById( "DisclaimerPage1NextButton" ).addEventListener(
+        "click",
+        ( event ) => {
+          const disclaimerCountries = document.getElementById( "disclaimerCountries" );
+          const selectedIndex       = disclaimerCountries.selectedIndex;
+          const countrySelected     = disclaimerCountries.options[selectedIndex].value;
+          window.$("#disclaimerPage1").css( "display", "none" );
+          switch( countrySelected )
+          {
+            case "GB":
+              window.$("#disclaimerPage3").css( "display", "block" );
+              break;
+            case "AU":
+              window.$("#disclaimerPage3").css( "display", "block" );
+              break;
+            case "US":
+              window.$("#disclaimerPage3").css( "display", "block" );
+              break;
+            case "CA":
+              window.$("#disclaimerPage4").css( "display", "block" );
+              break;
+            case "AE":
+              window.$("#disclaimerPage4").css( "display", "block" );
+              break;
+            case "HK":
+              window.$("#disclaimerPage4").css( "display", "block" );
+              break;
+            case "JP":
+              window.$("#disclaimerPage4").css( "display", "block" );
+              break;
+            case "SG":
+              window.$("#disclaimerPage4").css( "display", "block" );
+              break;
+            case "CH":
+              window.$("#disclaimerPage4").css( "display", "block" );
+              break;
+            default:
+              window.$("#disclaimerPage3").css( "display", "block" );
+              break;
+          }
+        }
+      )
+
+      document.getElementById( "acceptDisclaimer" ).addEventListener(
+        "click",
+        ( event ) => {
+          window.$('#modal_disclaimer').modal('hide');
+          window.$("#disclaimerPage1").css( "display", "block" );
+          window.$("#disclaimerPage3").css( "display", "none" );
+          window.$("#disclaimerPage4").css( "display", "none" );
+          const store = window.sessionStorage;
+          store.setItem( 'DISCLAIMER_ACCEPTED', 1 );
+          const ipo_material_url = window.sessionStorage.getItem( 'IPO_MATERIAL' );
+          window.sessionStorage.removeItem( 'IPO_MATERIAL' );
+          if( ipo_material_url != null )
+          {
+            window.location = ipo_material_url;
+          }
+          else
+          {
+            window.location = "https://ir.darktrace.com/disclaimer/check/accepted?accepted=true#ipo-materials";
+          }
+        }
+      );
+
+    },
+    { once: true }
+  );
+</script>
+
+    
+  </body>
+</html>

@@ -1,0 +1,57 @@
+CM-LRS — Companion code, prompts, rubrics, demonstration tasks, and scoring data
+=================================================================================
+
+This repository is the public companion release for the paper:
+
+  Ahuja, P. (2026). Capital Markets LLM Reliability Score (CM-LRS):
+  From Plausible to Bankable.
+
+Contents and licensing
+----------------------
+
+1. Source code under `eval/` (Python evaluation pipeline, LaTeX paper source,
+   Bash helper scripts):
+     Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+     See LICENSE in the repository root.
+
+2. Rubrics, prompt templates, demonstration task specifications, and the
+   synthetic Nordic-style term sheets and ECM term sheets I authored
+   (`corpus/W1_debt_terms/synthetic/`, `corpus/W5_ecm_terms/synthetic/`,
+   `eval/prompts/`):
+     Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+3. Scoring outputs and aggregated tables (`eval/outputs/`, `eval/scores/`,
+   `eval/scoring_table.{md,json}`):
+     Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+4. The paper PDF and LaTeX source under `paper/`:
+     Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+5. SEC EDGAR filings and the Darktrace IR announcement reproduced under
+   `corpus/W1_debt_terms/edgar/`, `corpus/W2_precedent_retrieval/edgar/`,
+   `corpus/W3_issuer_profile/edgar/`, `corpus/W4_transaction_comparable/`, and
+   `corpus/W5_ecm_terms/edgar/`:
+     These are public-record regulatory filings. SEC EDGAR documents are in
+     the public domain and freely redistributable. The Darktrace IR
+     announcement is a public regulatory disclosure under UK takeover law.
+     They are reproduced here as snapshots to support strict reproducibility
+     of the evaluation; original sources are credited within each
+     workflow's picks file (e.g., `corpus/W1_debt_terms/edgar_picks.md`).
+
+Trademarks and model identities
+-------------------------------
+
+References to specific commercial AI systems (Claude Opus 4.7, Claude
+Sonnet 4.6, GPT-5.5, Llama 3.3 70B) are descriptive: each model is named to
+identify which system was evaluated. No endorsement or affiliation is implied,
+and none of those organisations have reviewed or approved this work.
+
+Author and affiliation
+----------------------
+
+This work was produced in the author's personal capacity. No employer is named
+in the byline. The work was performed using publicly available data and tools.
+
+For questions or attribution requests:
+  Prerit Ahuja — prerit86@gmail.com
+  https://preritahuja.com/
